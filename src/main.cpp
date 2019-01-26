@@ -5,6 +5,7 @@ enum Button { zero, one, two, three, four, five, six, seven, eight, nine, minus,
 Button command;
 
 int RECV_PIN = 11;
+#define PWM_PIN 6
 
 IRrecv irrecv(RECV_PIN);
 
